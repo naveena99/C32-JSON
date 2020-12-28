@@ -99,7 +99,7 @@ function keyPressed(){
 async function getbackgroundImg ()
 {
     //aynschronous 
-var response = await fetch("http://worldtimeapi.org/api/timezone/Asia/Tokyo");
+var response = await fetch("https://worldtimeapi.org/api/timezone/Asia/Tokyo");
 var responseJSON = await response.json();
 
 var datetime = responseJSON.datetime;
